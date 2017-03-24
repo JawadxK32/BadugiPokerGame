@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=rng
+comment0.target=Deck(java.util.Random)
+comment0.text=\n\ Constructor\ for\ the\ class.\n\ @param\ rng\ The\ random\ number\ generator\ used\ to\ shuffle\ the\ deck.\n
+comment1.params=
+comment1.target=Card\ drawCard()
+comment1.text=\ \n\ Draw\ one\ random\ card\ from\ the\ top\ of\ this\ deck.\n\ @return\ The\ card\ that\ was\ drawn\ and\ removed\ from\ this\ deck.\n
+comment2.params=
+comment2.target=BadugiHand\ drawBadugiHand()
+comment2.text=\n\ Create\ a\ new\ four-card\ badugi\ hand\ by\ drawing\ from\ the\ top\ of\ this\ deck.\n\ @return\ The\ badugi\ hand\ object\ thus\ created.\n
+numComments=3

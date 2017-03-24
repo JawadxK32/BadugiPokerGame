@@ -1,0 +1,6 @@
+Ruleplayer #3 : 4
+Ruleplayer #6 : 4
+Ruleplayer #5 : 3
+Ruleplayer #1 : 2
+Ruleplayer #2 : 1
+Ruleplayer #4 : 1

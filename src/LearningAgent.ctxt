@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=training\ currentPercept\ possibleActions
+comment0.target=java.lang.String\ chooseAction(boolean,\ java.lang.String,\ java.util.List)
+comment0.text=\n\ Ask\ the\ agent\ which\ action\ to\ perform,\ based\ on\ the\ current\ perception.\n\ \n\ @param\ training\ Whether\ the\ action\ counts\ towards\ the\ agent's\ actual\ score,\n\ which\ can\ affect\ the\ agent's\ choice\ of\ exploration\ and\ exploitation.\n\ @param\ currentPercept\ The\ current\ percept\ of\ the\ agent.\n\ @param\ possibleActions\ The\ list\ of\ possible\ actions\ available\ to\ the\ agent.\n\ @return\ the\ action\ chosen\ by\ the\ agent.\n
+comment1.params=currentPercept\ action\ nextPercept\ reward
+comment1.target=void\ observeResults(java.lang.String,\ java.lang.String,\ java.lang.String,\ double)
+comment1.text=\n\ Observe\ the\ results\ of\ the\ Action\ performed\ in\ currentPercept.\ The\ environment\ is\n\ guaranteed\ to\ call\ this\ method\ exactly\ once\ after\ each\ chooseAction\ call.\n\ @param\ currentPercept\ The\ percept\ in\ which\ the\ action\ was\ performed.\n\ @param\ action\ The\ action\ chosen\ by\ the\ agent.\n\ @param\ nextPercept\ The\ percept\ resulting\ to\ the\ agent\ from\ performing\ that\ action.\n\ @param\ reward\ The\ immediate\ reward\ given\ to\ the\ agent\ as\ result\ of\ the\ chosen\ action.\n
+comment2.params=
+comment2.target=java.lang.String\ getAuthor()
+comment2.text=\n\ Return\ the\ author\ of\ this\ agent.\ Each\ subclass\ of\ Agent\ should\ override\ this\ method\n\ to\ return\ the\ author's\ name\ as\ a\ String.\n\ @return\ The\ author\ of\ this\ agent.\n
+numComments=3

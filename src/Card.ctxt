@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=suit\ rank
+comment0.target=Card(int,\ int)
+comment0.text=\n\ Constructor\ for\ the\ class.\n\ @param\ suit\ The\ suit\ of\ this\ card.\ Should\ be\ an\ int\ from\ 0\ to\ 3.\n\ @param\ rank\ The\ rank\ of\ this\ card.\ Should\ be\ an\ int\ from\ 0\ (ace)\ to\ 12\ (king).\n
+comment1.params=s
+comment1.target=Card\ from(java.lang.String)
+comment2.params=
+comment2.target=int\ getSuit()
+comment2.text=\n\ Accessor\ method\ for\ the\ suit.\n\ @return\ The\ suit\ of\ the\ card,\ as\ an\ integer\ from\ 0\ to\ 3.\n
+comment3.params=
+comment3.target=int\ getRank()
+comment3.text=\n\ Accessor\ method\ for\ the\ rank.\n\ @return\ The\ rank\ of\ the\ card,\ as\ an\ integer\ from\ 1\ (ace)\ to\ 13\ (king).\n
+comment4.params=other
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\n\ Equality\ comparison\ of\ {@code\ Card}\ objects.\ No\ {@code\ Card}\ is\ ever\ equal\ to\ something\ that\ is\ not\n\ a\ {@code\ Card},\n\ and\ two\ {@code\ Card}\ objects\ are\ equal\ if\ they\ are\ the\ same\ object,\ or\ have\ the\ same\ suit\ and\ rank.\n\ @return\ The\ result\ of\ the\ equality\ comparison.\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Returns\ the\ String\ representation\ for\ this\ card.\n\ @return\ The\ String\ representation\ for\ this\ card.\n
+comment6.params=other
+comment6.target=int\ compareTo(Card)
+comment6.text=\n\ The\ order\ comparison\ between\ {@code\ Card}\ objects,\ as\ defined\ in\ interface\ {@code\ Comparable<Card>}.\n\ @param\ other\ The\ other\ {@code\ Card}\ to\ compare\ to\ this\ {@code\ Card}.\n\ @return\ The\ result\ of\ the\ order\ comparison\ as\ an\ int\ -1,\ 0\ or\ +1\ whose\ sign\ gives\ the\ result.\n
+comment7.params=other
+comment7.target=boolean\ badugiConflict(Card)
+comment7.text=\n\ Checks\ whether\ {@code\ this}\ card\ and\ the\ {@other}\ card\ may\ not\ be\ part\ of\ the\ same\ badugi\ hand.\n\ @param\ other\ The\ other\ {@code\ Card}\ that\ participates\ in\ the\ test.\n\ @return\ The\ result\ of\ the\ test.\n
+numComments=8

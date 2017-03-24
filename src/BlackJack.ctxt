@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=agent
+comment0.target=void\ setAgent(LearningAgent)
+comment1.params=
+comment1.target=int\ getCard()
+comment2.params=training\ dealerCard\ firstCard\ secondCard\ dealer
+comment2.target=int\ play(boolean,\ int,\ int,\ int,\ boolean)
+comment3.params=training
+comment3.target=double\ playBlackJackHand(boolean)
+comment4.params=training
+comment4.target=double\ runSingleEpisode(boolean)
+numComments=5

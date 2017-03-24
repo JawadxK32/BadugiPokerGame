@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=agent
+comment0.target=void\ setAgent(LearningAgent)
+comment0.text=\n\ Sets\ the\ agent\ that\ operates\ in\ this\ environment.\n\ @param\ agent\ The\ agent\ that\ operates\ in\ this\ environment.\n
+comment1.params=training
+comment1.target=double\ runSingleEpisode(boolean)
+comment1.text=\n\ Tells\ the\ environment\ to\ run\ a\ single\ episode.\n\ @param\ training\ Whether\ the\ episode\ counts\ towards\ the\ agent's\ actual\ score,\n\ which\ can\ affect\ the\ agent's\ choice\ of\ exploration\ and\ exploitation.\n
+numComments=2

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=initBoard
+comment0.target=boolean\ solve(int[][])
+comment0.text=Initialize\ the\ solver.
+comment1.params=depth
+comment1.target=boolean\ backtrack(int)
+comment1.text=The\ backtracking\ search\ algorithm.
+comment2.params=
+comment2.target=void\ test()
+comment2.text=A\ few\ test\ boards.
+comment3.params=
+comment3.target=void\ test2()
+numComments=4

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=out\ msg
+comment0.target=void\ message(java.io.PrintWriter,\ java.lang.String)
+comment1.params=deck\ players\ out\ handsToGo\ currentScore
+comment1.target=int\ playOneHand(Deck,\ BadugiPlayer[],\ java.io.PrintWriter,\ int,\ int)
+comment1.text=\n\ Play\ one\ hand\ of\ badugi,\ with\ both\ players\ first\ placing\ an\ ANTE,\ after\ which\ the\ betting\ takes\ place\ in\ fixed\ size\n\ increments\ depending\ on\ the\ street.\ For\ simplicity,\ both\ players\ are\ assumed\ to\ have\ deep\ enough\ stacks\ so\ that\ the\n\ concept\ of\ all-in\ does\ not\ emerge.\n\ @param\ deck\ The\ deck\ of\ cards\ used\ to\ play\ this\ hand.\n\ @param\ players\ The\ two-element\ array\ of\ the\ players\ in\ this\ hand,\ in\ the\ order\ (dealer,\ opponent).\n\ @param\ out\ The\ PrintWriter\ used\ to\ write\ the\ verbose\ messages\ about\ the\ events\ in\ this\ hand.\ If\ null,\ there\ is\ no\ output.\n\ @return\ The\ result\ of\ the\ hand,\ as\ indicated\ by\ the\ amount\ won\ by\ player\ 0\ from\ player\ 1.\ A\ negative\ result\n\ therefore\ means\ that\ the\ player\ 0\ lost\ the\ hand.\n
+comment2.params=rng\ players\ out\ hands
+comment2.target=int\ playHeadsUp(java.util.Random,\ BadugiPlayer[],\ java.io.PrintWriter,\ int)
+comment2.text=\n\ Play\ the\ given\ number\ of\ hands\ of\ heads-up\ badugi\ between\ the\ two\ players,\ alternating\ the\ dealer\ position\n\ between\ each\ round.\n\ @param\ rng\ The\ random\ number\ generator\ used\ to\ initialize\ the\ deck\ in\ each\ hand.\n\ @param\ players\ The\ two\ players\ participating\ in\ this\ heads-up\ match.\n\ @param\ out\ The\ PrintWriter\ used\ to\ write\ the\ verbose\ messages\ about\ the\ events\ in\ this\ hand.\ To\ silence\ this\ output,\n\ use\ e.g.\ new\ FileWriter("/dev/null")\ as\ this\ argument\ in\ an\ Unix\ system.\n\ @param\ hands\ How\ many\ hands\ to\ play\ in\ this\ heads-up\ match.\n\ @return\ The\ result\ of\ the\ match,\ as\ indicated\ by\ the\ amount\ won\ by\ player\ 0\ from\ player\ 1.\ A\ negative\ result\n\ therefore\ means\ that\ the\ player\ 0\ lost\ the\ match.\n
+comment3.params=seed\ players\ out\ hands
+comment3.target=int\ playHeadsUpDuplicate(int,\ BadugiPlayer[],\ java.io.PrintWriter,\ int)
+comment3.text=\n\ Play\ the\ given\ number\ of\ hands\ of\ heads-up\ badugi\ between\ the\ two\ players,\ alternating\ the\ dealer\ position\n\ between\ each\ round.\ However,\ to\ decrease\ the\ effect\ of\ luck\ (as\ is\ done\ in\ duplicate\ bridge),\ the\ series\ of\n\ hands\ generated\ by\ the\ same\ random\ number\ generator\ seed\ is\ played\ twice,\ with\ the\ players\ switching\n\ positions\ in\ between\ the\ series.\n\ \n\ @param\ seed\ The\ seed\ to\ give\ to\ the\ random\ number\ generator\ to\ produce\ the\ series\ of\ hands.\n\ @param\ players\ The\ two\ players\ participating\ in\ this\ heads-up\ match.\n\ @param\ out\ The\ PrintWriter\ used\ to\ write\ the\ verbose\ messages\ about\ the\ events\ in\ this\ hand.\ To\ silence\ this\ output,\n\ use\ e.g.\ new\ FileWriter("/dev/null")\ as\ this\ argument\ in\ an\ Unix\ system.\n\ @param\ hands\ How\ many\ hands\ to\ play\ in\ this\ heads-up\ match.\n\ @return\ The\ result\ of\ the\ match,\ as\ indicated\ by\ the\ amount\ won\ by\ player\ 0\ from\ player\ 1.\ A\ negative\ result\n\ therefore\ means\ that\ the\ player\ 0\ lost\ the\ match.\n
+comment4.params=agentClassNames\ out\ results
+comment4.target=void\ badugiTournament(java.lang.String[],\ java.io.PrintWriter,\ java.io.PrintWriter)
+comment4.text=\n\ Play\ the\ entire\ multiagent\ Badugi\ tournament,\ one\ heads-up\ match\ between\ every\ possible\ pair\ of\ agents.\n\ @param\ agentClassNames\ A\ string\ array\ containing\ the\ names\ of\ agent\ subclasses.\n\ @param\ out\ A\ PrintWriter\ to\ write\ the\ results\ of\ the\ individual\ heads-up\ matches\ into.\n\ @param\ results\ A\ PrintWriter\ to\ write\ the\ tournament\ results\ into.\n
+comment5.params=
+comment5.target=void\ playThreeHandTournament()
+comment5.text=\n\ Play\ three\ hands\ in\ the\ verbose\ mode.\ Suitable\ for\ watching\ your\ agents\ play.\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ Run\ the\ entire\ badugi\ tournament\ between\ agents\ from\ classes\ listed\ inside\ this\ method.\n
+numComments=7

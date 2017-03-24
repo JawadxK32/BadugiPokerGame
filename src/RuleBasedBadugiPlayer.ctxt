@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RuleBasedBadugiPlayer()
+comment1.params=nick
+comment1.target=RuleBasedBadugiPlayer(java.lang.String)
+comment2.params=position\ handsToGo\ currentScore
+comment2.target=void\ startNewHand(int,\ int,\ int)
+comment3.params=drawsRemaining\ hand\ bets\ pot\ toCall\ opponentDrew
+comment3.target=int\ bettingAction(int,\ BadugiHand,\ int,\ int,\ int,\ int)
+comment4.params=drawsRemaining\ hand\ pot\ dealerDrew
+comment4.target=java.util.List\ drawingAction(int,\ BadugiHand,\ int,\ int)
+comment5.params=yourHand\ opponentHand
+comment5.target=void\ showdown(BadugiHand,\ BadugiHand)
+comment6.params=
+comment6.target=java.lang.String\ getAgentName()
+comment7.params=
+comment7.target=java.lang.String\ getAuthor()
+numComments=8
